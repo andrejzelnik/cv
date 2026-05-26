@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Typst auxiliary files
+# cv.pdf is committed by GitHub Actions
+cv.pdf
+
+# Claude Code
+.claude/settings.local.json
+.claude/launch.json
+
+# Editor
+.vscode/
+*.swp
+*~
