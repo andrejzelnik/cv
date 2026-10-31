@@ -100,7 +100,7 @@
     set text(font: "Roboto", size: 7.5pt)
     work-entry(
       theme: (space-above: 0pt),
-      timeframe: "Apr 2024 -- Present",
+      timeframe: "Apr 2024 -- Oct 2026",
       title: "Sabbatical",
       organization: "career break",
       location: "",
