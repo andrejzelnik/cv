@@ -50,7 +50,7 @@
           [*Cloud:* Azure, AWS],
           [*CI/CD & GitOps:* GitLab CI, GitHub Actions, ArgoCD, Flux],
           [*IaC:* Terraform, Bicep, Crossplane, Ansible],
-          [*Networking:* Nginx, Traefik, cert-manager, external-dns],
+          [*Networking:* Nginx, Traefik, cert-manager],
           [*Observability:* Prometheus, Grafana, Loki, ELK/EFK],
           [*Secrets:* Vault, SOPS, Key Vault, Secrets Manager],
           [*Security:* OPA, Kyverno, Trivy, Checkov],
@@ -105,7 +105,7 @@
       organization: "career break",
       location: "",
       [
-        - Travel (Scandinavia, Singapore, New Zealand, Australia, Balkan), yacht captain license, motorcycle license
+        - Travel (Scandinavia, Singapore, New Zealand, Australia, Balkans), yacht captain license, motorcycle license
       ],
     )
     work-entry(
@@ -119,7 +119,7 @@
         - Built an internal developer platform adopted across 30+ services
         - Designed reusable CI/CD pipeline templates that became the org-wide standard
         - Managed 100+ on-demand Kubernetes environments for development, testing, PoCs and CI
-        - Reduced cloud infrastructure costs by ~40% through resource optimization and environment lifecycle management
+        - Reduced cloud infrastructure costs by \~40% through resource optimization and environment lifecycle management
         - Led developer onboarding to Kubernetes through deep-dive workshops and tutorials
       ],
     )
