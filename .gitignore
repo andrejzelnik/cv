@@ -2,8 +2,8 @@
 .DS_Store
 
 # Typst auxiliary files
-# cv.pdf is committed by GitHub Actions
-cv.pdf
+# The published PDF is committed by GitHub Actions
+*.pdf
 
 # Claude Code
 .claude/settings.local.json

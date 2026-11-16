@@ -17,19 +17,19 @@ jobs:
         uses: typst-community/setup-typst@v5
 
       - name: Build PDF
-        run: typst compile --font-path fonts cv.typ cv.pdf
+        run: typst compile --font-path fonts cv.typ Andrej_Zelnik_CV.pdf
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v7
         with:
-          name: cv
-          path: cv.pdf
+          name: Andrej_Zelnik_CV
+          path: Andrej_Zelnik_CV.pdf
 
       - name: Commit PDF to repository
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f cv.pdf
-          git diff --cached --quiet || git commit -m "build: update cv.pdf"
+          git add -f Andrej_Zelnik_CV.pdf
+          git diff --cached --quiet || git commit -m "build: update Andrej_Zelnik_CV.pdf"
           git push

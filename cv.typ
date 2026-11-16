@@ -3,6 +3,12 @@
 #let envelope-icon = image("images/font-awesome/envelope-solid.svg")
 #let linkedin-icon = image("images/font-awesome/linkedin-in-brands.svg")
 
+#set document(
+  title: "Andrej Zelník – Platform Engineer CV",
+  author: "Andrej Zelník",
+  keywords: ("Platform Engineer", "DevOps", "Kubernetes", "Azure", "AWS"),
+)
+
 #set par(justify: true)
 #set text(hyphenate: false)
 
@@ -35,7 +41,7 @@
         contact-entry(
           theme: (align-gutter: center),
           pad(top: -2pt, linkedin-icon),
-          link("https://linkedin.com/in/andrejzelnik", "andrejzelnik"),
+          link("https://linkedin.com/in/andrejzelnik", "linkedin.com/in/andrejzelnik"),
         )
       },
     )
